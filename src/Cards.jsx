@@ -11,7 +11,7 @@ function Cards() {
 const card = cardData.map((card, index) => (
             <div
                 key={card.id + index}
-                className={`h-screen w-screen md:px-[90px] px-[50px] bg-auto bg-no-repeat bg-right bg-img${card.img} text-white overflow-hidden`}>
+                className={`h-screen w-screen md:w-[1080px] md:px-[90px] px-[50px] bg-cover bg-no-repeat bg-right bg-img${card.img} text-white overflow-hidden`}>
                 <div className='flex justify-between md:pt-[30px] pt-[25px]'>
                     <img src={logo} alt="logo" className='md:w-auto h-auto w-[150px]'/>
                     <img src={arrow} alt="arrow" className='animate-pulse md:w-auto w-[75px] md:h-auto h-[15px] md:mt-0 mt-[10px]'/>
