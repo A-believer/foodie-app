@@ -1,11 +1,11 @@
 const cardData =[
- {
+  {
         id: "1",
         img: "1",
-        tag1: "Signature",
-        tag2: "Big Burger",
-        subtag: "Regular"
-},
+        tag1: "Plan Birthday",
+        tag2: "Suprises",
+        subtag: "Parties"
+    },
 {
     id: "2",
     img: "2",
@@ -40,13 +40,6 @@ const cardData =[
         tag1: "Cream",
         tag2: "Pastries",
         subtag: "Special"
-    },
-                {
-        id: "7",
-        img: "7",
-        tag1: "Plan",
-        tag2: "Birthday Suprises",
-        subtag: "Parties"
     }
                    
 ]
